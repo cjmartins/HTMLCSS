@@ -1,0 +1,19 @@
+div{
+    display: inline-block;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width:300px;
+}
+
+div > p {display: none;}
+
+div:hover{
+    background-color: yellow;
+}
+
+div:hover > p {
+    color: red;
+    display: inline-block;
+}

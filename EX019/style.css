@@ -1,0 +1,27 @@
+@charset "UTF-08";
+
+/*
+tudo em HTML id corresponde # em CSS
+tuso em HTML class corresponde . em CSS
+*/
+
+body{
+    background-color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    text-align: center;
+    color: maroon;
+}
+.basico{
+    color: gold;
+}
+.avançado{
+    color: fuchsia;
+}
+h1{
+    color:cornflowerblue;
+}
+h2{
+    color:blue;
+}
